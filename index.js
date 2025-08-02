@@ -32,7 +32,7 @@ app.get('/api/products/:id', async (req, res) => {
 
 
 
-mongoose.connect("mongodb+srv://ayo:YpldB0Eh0pJmYFsI@backenddb.exs0kyz.mongodb.net/Node-API?retryWrites=true&w=majority&appName=BackendDB").then(() => {
+mongoose.connect("add your own mongodb uri here").then(() => {
     console.log("Connected to database!");
     app.listen(3000, () => {
     console.log('Server is running on port 3000');
